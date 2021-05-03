@@ -1,0 +1,308 @@
+html, body {
+    margin: 0;
+    font-family: Calibri Light;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-image: url("");
+}
+a, i {
+    font-family: Calibri Light;
+    text-decoration: none;
+    color: white;
+}
+img#sananasLogo {
+    width: 20%;
+    height: 5%;
+    margin: 10px;
+}
+nav {
+    background-color: #52057b;
+    padding: 1rem;
+}
+h2 {
+    margin-top: 0;
+}
+div#ctrlpnl {
+    width: 65%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    margin: 0 auto;
+}
+div#topNav {
+    background-color: #52057b;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 0;
+}
+h3#crntpage {
+    margin-right: 30%;
+    margin-left: 0;
+}
+div#license {
+    padding: 1rem;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #52057b;
+}
+div#downloads {
+    padding: 1rem;
+    width: 65%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+div#whatDiv {
+    padding: 1rem;
+    width: 65%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+div#startDiv {
+    padding: 1rem;
+    width: 65%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #2b0544;
+}
+div#submitDiv {
+    padding: 1rem;
+    width: 65%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #52057b;
+}
+div#tableDiv {
+    padding: 1rem;
+    width: 65%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+.button {
+    transition: 500ms;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Calibri Light;
+    color: rgb(238, 238, 238);
+    background-color: #892cdc;
+    border-color: #892cdc;
+    border-radius: 9px;
+    font-size: 3vh;
+    width: 10rem;
+}
+.button:hover, .button:active {
+    transition: 500ms;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Calibri Light;
+    color: rgb(255, 255, 255);
+    background-color:#8a2cdcc7;
+    border-color: #7725be;
+    border-radius: 6px;
+    scale: ();
+}
+.adminBTN {
+    transition: 500ms;
+    padding: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Calibri Light;
+    color: rgb(238, 238, 238);
+    background-color: #892cdc;
+    border-color: #892cdc;
+    border-radius: 4.5px;
+    font-size: 1.5vh;
+    width: 14rem;
+    position: center;
+}
+.adminBTN:hover, .adminBTN:active {
+    transition: 500ms;
+    padding: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Calibri Light;
+    color: rgb(255, 255, 255);
+    background-color:#8a2cdcc7;
+    border-color: #7725be;
+    border-radius: 3px;
+    scale: ();
+}
+.updateBTN {
+    transition: 500ms;
+    padding: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Calibri Light;
+    color: rgb(238, 238, 238);
+    background-color: #4fdc2c;
+    border-color: #4fdc2c;
+    border-radius: 4.5px;
+    font-size: 1.5vh;
+    width: 5rem;
+    position: center;
+}
+.updateBTN:hover, .updateBTN:active {
+    transition: 500ms;
+    padding: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Calibri Light;
+    color: rgb(255, 255, 255);
+    background-color:#44b927;
+    border-color: #44b927;
+    border-radius: 3px;
+    scale: ();
+}
+.deleteBTN {
+    transition: 500ms;
+    padding: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Calibri Light;
+    color: rgb(238, 238, 238);
+    background-color: #dc2c2c;
+    border-color: #dc2c2c;
+    border-radius: 4.5px;
+    font-size: 1.5vh;
+    width: 5rem;
+    position: center;
+}
+.deleteBTN:hover, .deleteBTN:active {
+    transition: 500ms;
+    padding: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Calibri Light;
+    color: rgb(255, 255, 255);
+    background-color:#b92727;
+    border-color: #b92727;
+    border-radius: 3px;
+    scale: ();
+}
+p#smallText {
+    font-size: 0.5rem;
+}
+p#license {
+    font-size: x-large;
+    padding: 0;
+    margin: 0;
+}
+.center {
+    text-align: center;
+}
+#basicMap {
+    width: 60%;
+    height: 40%;
+    margin: 0;
+}
+.map {
+    height: 400px;
+    width: 100%;
+}
+input#PSC, input#fname, input#surname, input#username, input#password, input#newPSC, input#newFNAME, input#newSURNAME {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    margin: 5px;
+    font-family: Calibri Light;
+    color: rgb(238, 238, 238);
+    background-color: #892cdc;
+    border: 0px;
+    font-size: 1rem;
+    width: 14rem;
+    height: 1.5rem;
+}
+input#submit {
+    transition: 200ms;
+    padding: 5px;
+    margin: 5px;
+    font-family: Calibri Light;
+    color: rgb(238, 238, 238);
+    background-color: #892cdc;
+    border: 0px;
+    font-size: 1rem;
+    width: 4rem;
+    height: 2rem;
+}
+input#submit:hover {
+    transition: 200ms;
+    background-color: #7f28ca;
+}
+    /*Scroll bar*/
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #707070; 
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #4b4a4a; 
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #474747; 
+    }
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px #892cdc;
+}
+.styled-table thead tr {
+    border-radius: 3px;
+    background-color: #892cdc;
+    color: #ffffff;
+    text-align: center;
+}
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #892cdc;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #892cdc;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #52057b;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
